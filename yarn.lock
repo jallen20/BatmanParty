@@ -13672,6 +13672,11 @@ ws@^7.4.6:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.5.tgz#8b4bc4af518cfabd0473ae4f99144287b33eb881"
   integrity sha512-BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==
 
+x-gif@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/x-gif/-/x-gif-1.0.5.tgz#0d6b031570e23d3a7941757312be87bf7fb9ee50"
+  integrity sha1-DWsDFXDiPTp5QXVzEr6Hv3+57lA=
+
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"

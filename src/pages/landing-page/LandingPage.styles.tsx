@@ -9,6 +9,7 @@ const LandingPageWrapper = styled.div`
     position: relative;
     background: black;
     justify-content: center;
+    overflow: hidden;
 `;
 const rotate = keyframes`
   0%   {transform: rotate(0deg);}
@@ -18,8 +19,8 @@ const rotate = keyframes`
 `;
 
 const BatLogoWrapper = styled.div`
-    animation: ${rotate} .6s linear infinite;
-    animation-timing-function: linear, linear;
+    // animation: ${rotate} .6s linear infinite;
+    // animation-timing-function: linear, linear;
 `;
 
 export {
