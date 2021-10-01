@@ -11,7 +11,6 @@ export const history = createBrowserHistory({
   basename: process.env.BATMAN_PARTY_PUBLIC_URL,
 });
 
-// const window: any = Window;
 declare const window: any;
 
 const enhancers = [];

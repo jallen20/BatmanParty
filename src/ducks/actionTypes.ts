@@ -1,1 +1,1 @@
-export const type = '';
+export const DEFAULT = '';

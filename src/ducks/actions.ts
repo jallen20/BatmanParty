@@ -1,1 +1,1 @@
-export const GO = '';
+export const DEFAULT = '';

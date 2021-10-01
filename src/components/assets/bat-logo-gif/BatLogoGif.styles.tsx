@@ -6,6 +6,10 @@ const BatLogoWrapper = styled.div`
     width:100vw;
     height:100vh;
     
+     &:hover {
+        cursor: pointer;
+    }
+    
     @media screen and (max-width: 1000px) {
         transform: scaleY(.5);
     }
@@ -21,13 +25,7 @@ const InnerWrapper = styled.div`
     overflow: hidden;
     transition: transform 2s ease-in;
 `;
-const InnerWrapperV = styled.div`
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    transition: transform 2s ease-in;
-`;
-const Logo = styled.img`
+const LogoLeft = styled.img`
     margin: auto;
     width:100vw;
     height:100vh;
@@ -37,7 +35,7 @@ const Logo = styled.img`
         opacity: .7;
     }
 `;
-const LogoV = styled.img`
+const LogoRight = styled.img`
     margin: auto;
     width:100vw;
     height:100vh;
@@ -52,7 +50,6 @@ const LogoV = styled.img`
 export {
     BatLogoWrapper,
     InnerWrapper,
-    Logo,
-    LogoV,
-    InnerWrapperV
+    LogoLeft,
+    LogoRight
 }

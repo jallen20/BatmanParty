@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BatLogoWrapper, InnerWrapper, Logo, LogoV} from "./BatLogoGif.styles";
+import {BatLogoWrapper, InnerWrapper, LogoLeft, LogoRight} from "./BatLogoGif.styles";
 
 const BatLogoGif = (props: {
     url: string,
@@ -20,15 +20,15 @@ const BatLogoGif = (props: {
         setRightPosition('100%');
         setLeftPosition('-100%');
         onClick();
-    }
+    };
     
     return (
         <BatLogoWrapper onClick={onBatClick}>
             <InnerWrapper style={styleLeft}>
-                <Logo alt='bat-logo' src={url}/>
+                <LogoLeft alt='bat-logo' src={url}/>
             </InnerWrapper>
             <InnerWrapper style={styleRight}>
-                <LogoV alt='bat-logo' src={url}/>
+                <LogoRight alt='bat-logo' src={url}/>
             </InnerWrapper>
         </BatLogoWrapper>
     )
