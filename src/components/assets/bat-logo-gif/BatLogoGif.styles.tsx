@@ -5,6 +5,10 @@ const BatLogoWrapper = styled.div`
     display: flex;
     width:100vw;
     height:100vh;
+    
+    @media only screen and (max-width: 400px) {
+        transform: scaleY(.4);
+    }
 `;
 
 const InnerWrapper = styled.div`
