@@ -7,9 +7,9 @@ const LandingPage = () => {
     
     const onBatLogoClick = () => {
         setTimeout(() => {
-            window.location.href = eventBrightUrl;
+            window.location.href = process.env.EVENT_BRIGHT_URL || eventBrightUrl;
         }, 1000);
-    }
+    };
     return (
         <LandingPageWrapper>
             <BatLogoWrapper>
