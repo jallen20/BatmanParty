@@ -28,6 +28,10 @@ const Logo = styled.img`
     width:100vw;
     height:100vh;
     transition: transform 2s ease-in;
+    
+    @media only screen and (max-width: 400px) {
+        opacity: .7;
+    }
 `;
 const LogoV = styled.img`
     margin: auto;
@@ -35,6 +39,10 @@ const LogoV = styled.img`
     height:100vh;
     transition: transform 2s ease-in;
     transform: translateX(-50%);
+    
+    @media only screen and (max-width: 400px) {
+       opacity: .7;
+    }
 `;
 
 export {

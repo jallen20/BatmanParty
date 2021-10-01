@@ -8,7 +8,7 @@ import rootReducer from './rootReducer';
 import initialState from './initialState';
 
 export const history = createBrowserHistory({
-  basename: process.env.CARVANA_APP_PUBLIC_URL,
+  basename: process.env.BATMAN_PARTY_PUBLIC_URL,
 });
 
 // const window: any = Window;
