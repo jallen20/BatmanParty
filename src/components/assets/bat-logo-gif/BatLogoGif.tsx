@@ -3,10 +3,9 @@ import {BatLogoWrapper, InnerWrapper, Logo, LogoV} from "./BatLogoGif.styles";
 
 const BatLogoGif = (props: {
     url: string,
-    onClick: any,
-    eventBrightUrl: string
+    onClick: any
 }) => {
-    const {url, onClick, eventBrightUrl} = props;
+    const {url, onClick} = props;
     const [leftPosition, setLeftPosition] = useState('0');
     const [rightPosition, setRightPosition] = useState('0');
 
@@ -20,9 +19,7 @@ const BatLogoGif = (props: {
     const onBatClick = () => {
         setRightPosition('100%');
         setLeftPosition('-100%');
-        setTimeout(() => {
-            window.location.href = eventBrightUrl;
-        }, 2000);
+        onClick();
     }
     
     return (

@@ -6,12 +6,12 @@ const BatLogoWrapper = styled.div`
     width:100vw;
     height:100vh;
     
-    @media only screen and (max-width: 400px) {
-        transform: scaleY(.4);
+    @media screen and (max-width: 1000px) {
+        transform: scaleY(.5);
     }
     
-    @media only screen and (max-width: 1000px) {
-        transform: scaleY(.5);
+        @media screen and (max-width: 400px) {
+        transform: scaleY(.3);
     }
 `;
 
@@ -33,11 +33,7 @@ const Logo = styled.img`
     height:100vh;
     transition: transform 2s ease-in;
     
-    @media only screen and (max-width: 400px) {
-        opacity: .7;
-    }
-    
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1000px) {
         opacity: .7;
     }
 `;
@@ -48,12 +44,8 @@ const LogoV = styled.img`
     transition: transform 2s ease-in;
     transform: translateX(-50%);
     
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 1000px) {
        opacity: .7;
-    }
-    
-    @media only screen and (max-width: 600px) {
-        opacity: .7;
     }
 `;
 
