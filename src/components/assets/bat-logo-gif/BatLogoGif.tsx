@@ -15,11 +15,15 @@ const BatLogoGif = (props: {
     const styleLeft = {
         transform: `translateX(${leftPosition})`
     };
+    const setPosition = (leftPosition: string, rightPosition: string) => {
+        setRightPosition(rightPosition);
+        setLeftPosition(leftPosition);
+    }
     
     const onBatClick = () => {
-        setRightPosition('100%');
-        setLeftPosition('-100%');
+        setPosition('-100%', '100%');
         onClick();
+        setTimeout(setPosition.bind(this, '0', '0'), 3000);
     };
     
     return (
