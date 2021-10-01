@@ -9,6 +9,10 @@ const BatLogoWrapper = styled.div`
     @media only screen and (max-width: 400px) {
         transform: scaleY(.4);
     }
+    
+    @media only screen and (max-width: 1000px) {
+        transform: scaleY(.5);
+    }
 `;
 
 const InnerWrapper = styled.div`
@@ -32,6 +36,10 @@ const Logo = styled.img`
     @media only screen and (max-width: 400px) {
         opacity: .7;
     }
+    
+    @media only screen and (max-width: 600px) {
+        opacity: .7;
+    }
 `;
 const LogoV = styled.img`
     margin: auto;
@@ -42,6 +50,10 @@ const LogoV = styled.img`
     
     @media only screen and (max-width: 400px) {
        opacity: .7;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        opacity: .7;
     }
 `;
 
